@@ -238,3 +238,4 @@
 [2022-05-19T21:52:50.524] [INFO] db - Executing (default): SELECT `id`, `name`, `email`, `mobile`, `created_at`, `updated_at` FROM `Admins` AS `Admin` LIMIT 60, 20;
 [2022-05-19T21:52:55.352] [INFO] db - Executing (default): SELECT count(*) AS `count` FROM `Admins` AS `Admin`;
 [2022-05-19T21:52:55.352] [INFO] db - Executing (default): SELECT `id`, `name`, `email`, `mobile`, `created_at`, `updated_at` FROM `Admins` AS `Admin` LIMIT 0, 20;
+[2022-05-19T21:58:54.911] [INFO] db - Executing (default): SELECT 1+1 AS result

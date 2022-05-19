@@ -1,0 +1,6 @@
+{
+  "watch": ["app/**/*.ts", "util/**/*.ts", "./index.ts"],
+  "igoner": ["node_modules"],
+  "exec": "ts-node index.ts",
+  "ext": ".ts"
+}

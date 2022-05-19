@@ -6,7 +6,8 @@ import LoginController from '../controller/LoginController';
 import AuthMiddleware from '../middleware/AuthMiddleware'
 
 router.get('/login', LoginController.index)
-router.get('/xiao', IndexController.xiao)
+router.get('/adminList', IndexController.adminList)
+router.get('/orderList', IndexController.orderList)
 
 router.use(AuthMiddleware)
 router.get('/', IndexController.index)

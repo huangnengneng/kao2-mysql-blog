@@ -4,7 +4,7 @@ import { sign } from '../utils/auth'
 import response from '../utils/response'
 class LoginController {
     async index(ctx: Context) {
-        const admin = await AdminSerice.getAdmin(6)
+        const admin = await AdminSerice.getAdmin(1)
         if (admin === null) {
             return response.error(ctx, '用户不存在', {})
         }

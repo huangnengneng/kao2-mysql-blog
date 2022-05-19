@@ -8,6 +8,8 @@ class IndexController {
         const admin = await AdminSerice.getAdmin(1)
         ctx.body = admin
     }
+
+
     async xiao(ctx: Context) {
         const usp = new URLSearchParams(ctx.querystring)
         let page = 1, limit = 20
